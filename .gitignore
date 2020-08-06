@@ -1,0 +1,19 @@
+dist
+node_modules
+package-lock.json
+.env
+.npmrc
+
+#ignore coverage
+coverage
+
+yarn.lock
+
+.vscode
+
+# Report files
+**e2e/reports/*
+!**e2e/reports/.gitkeep
+
+.npmrc
+.DS_Store
