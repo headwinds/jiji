@@ -12,6 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "apollo-server": "^2.16.1",
+    "convict": "^6.0.0",
     "graphql": "^15.3.0"
   }
 }
