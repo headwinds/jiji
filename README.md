@@ -17,6 +17,9 @@ yarn
 yarn start
 ```
 
-* [create-a-serverless-api-with-typescript-graphql-and-mongodb](https://akhilaariyachandra.com/create-a-serverless-api-with-typescript-graphql-and-mongodb)
+* [Apollo Server Vercel](https://apollo-server-vercel.saeris.io/)
+* [GQL to Vercel](https://apuyou.io/blog/serverless-graphql-apollo-server-nextjs)
+* [GQL pass variables](https://medium.com/atheros/graphql-quick-tip-how-to-pass-variables-into-a-mutation-in-graphiql-23ecff4add57)
+* [apollo micro on Vercel](https://akhilaariyachandra.com/create-a-serverless-api-with-typescript-graphql-and-mongodb)
 * [apollo-server/getting-started](https://www.apollographql.com/docs/apollo-server/getting-started/)
 * [jiji art credit](https://www.pinterest.ca/pin/682365781017311485/)

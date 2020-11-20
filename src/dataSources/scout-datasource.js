@@ -8,6 +8,12 @@ class ScoutAPI extends RESTDataSource {
     this.baseURL = "https://scout.now.sh/api/";
   }
 
+  willSendRequest(request) {
+    if (request.body && typeof request.body === "object") {
+      request.body = { ...request.body };
+    }
+  }
+
   async getGold(id) {
     return this.get(`gold/${id}`);
   }
@@ -16,6 +22,12 @@ class ScoutAPI extends RESTDataSource {
     const data = await this.get("gold");
     console.log(data);
     return data.golds;
+  }
+
+  async postGold(goldInput) {
+    const data = await this.post("gold", goldInput);
+    console.log("post gold response: ", data);
+    return data;
   }
 }
 

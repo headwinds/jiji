@@ -2,10 +2,10 @@
   "name": "jiji",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "api/index.js",
   "scripts": {
-    "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "vercel dev",
+    "deploy": "vercel"
   },
   "keywords": [],
   "author": "",
@@ -13,7 +13,10 @@
   "dependencies": {
     "apollo-datasource-rest": "^0.9.5",
     "apollo-server": "^2.16.1",
+    "apollo-server-micro": "^2.19.0",
     "convict": "^6.0.0",
-    "graphql": "^15.3.0"
+    "graphql": "^15.3.0",
+    "micro": "^9.3.4",
+    "micro-cors": "^0.1.1"
   }
 }
