@@ -1,0 +1,1 @@
+{"ast":null,"code":"module.exports = {\n  Query: {\n    tree: async (_source, {\n      xmlUrl\n    }, {\n      dataSources\n    }) => {\n      return dataSources.CabinQuestAPI.getTree(xmlUrl);\n    }\n  }\n};","map":null,"metadata":{},"sourceType":"script"}

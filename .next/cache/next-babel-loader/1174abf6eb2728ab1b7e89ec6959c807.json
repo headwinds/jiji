@@ -1,0 +1,1 @@
+{"ast":null,"code":"const {\n  gql\n} = require(\"apollo-server-micro\");\n\nmodule.exports = gql`\n  type Branch {\n    title: String\n    summary: String\n  }\n\n  type Tree {\n    branches: [Branch]\n  }\n\n  extend type Query {\n    tree(xmlUrl: String!): Tree\n  }\n`;","map":null,"metadata":{},"sourceType":"script"}

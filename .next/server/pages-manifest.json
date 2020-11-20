@@ -1,0 +1,22 @@
+{
+  "/_app": "pages/_app.js",
+  "/api/hello": "pages/api/hello.js",
+  "/api": "pages/api.js",
+  "/api/src/config": "pages/api/src/config.js",
+  "/api/src/constants": "pages/api/src/constants.js",
+  "/api/src/dataSources/cabinquest-datasource": "pages/api/src/dataSources/cabinquest-datasource.js",
+  "/api/src/dataSources": "pages/api/src/dataSources.js",
+  "/api/src/dataSources/reducers/gold-reducer": "pages/api/src/dataSources/reducers/gold-reducer.js",
+  "/api/src/dataSources/reducers/tree-reducer": "pages/api/src/dataSources/reducers/tree-reducer.js",
+  "/api/src/dataSources/scout-datasource": "pages/api/src/dataSources/scout-datasource.js",
+  "/api/src/models/gold/gold-resolvers": "pages/api/src/models/gold/gold-resolvers.js",
+  "/api/src/models/gold/gold-type": "pages/api/src/models/gold/gold-type.js",
+  "/api/src/models/root/root-resolvers": "pages/api/src/models/root/root-resolvers.js",
+  "/api/src/models/root/root-type": "pages/api/src/models/root/root-type.js",
+  "/api/src/models/tree/tree-resolvers": "pages/api/src/models/tree/tree-resolvers.js",
+  "/api/src/models/tree/tree-type": "pages/api/src/models/tree/tree-type.js",
+  "/": "pages/index.html",
+  "/_error": "pages/_error.js",
+  "/_document": "pages/_document.js",
+  "/404": "pages/404.html"
+}

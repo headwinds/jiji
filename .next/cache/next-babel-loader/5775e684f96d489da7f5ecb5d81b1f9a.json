@@ -1,0 +1,1 @@
+{"ast":null,"code":"module.exports = {\n  Query: {\n    root: () => \"root\"\n  },\n  Mutation: {\n    root: () => \"root\"\n  }\n};","map":null,"metadata":{},"sourceType":"script"}

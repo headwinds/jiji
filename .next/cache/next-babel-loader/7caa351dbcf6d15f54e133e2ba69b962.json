@@ -1,0 +1,1 @@
+{"ast":null,"code":"const ScoutAPI = require(\"./scout-datasource\");\n\nconst CabinQuestAPI = require(\"./cabinquest-datasource\");\n\nmodule.exports = {\n  ScoutAPI,\n  CabinQuestAPI\n};","map":null,"metadata":{},"sourceType":"script"}

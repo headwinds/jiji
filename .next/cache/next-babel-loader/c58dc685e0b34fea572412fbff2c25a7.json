@@ -1,0 +1,1 @@
+{"ast":null,"code":"/*\nconst getGoldReducer = gold => {\n  const {\n    gold_type,\n    text,\n  } = book;\n\n  return {\n    gold_type,\n    text\n  }\n};\n\n\nmodule.exports = { getGoldReducer };\n*/","map":null,"metadata":{},"sourceType":"script"}

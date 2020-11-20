@@ -9,6 +9,38 @@
     <title>jiji</title>
   </head>
   <body>
-    what would like me to deliver?
+    <section style="display: flex; flex-direction: column; align-items: center">
+      <div
+        style="
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          width: 800px;
+        "
+      >
+        <div>
+          <img src="jiji.png" />
+        </div>
+        <div><h2>What would you like me to deliver?</h2></div>
+        <form id="post-gold" style="margin: 8px">
+          <input
+            type="text"
+            id="gold"
+            name="gold"
+            placeholder="Send gold..."
+            autocomplete="off"
+            style="padding: 8px"
+          />
+          <button type="submit" style="padding: 8px">Enter</button>
+        </form>
+        <div id="gold-container" style="margin: 8px"></div>
+        <div id="golds-container" style="margin: 8px"></div>
+        <div>
+          <button id="get-tree">Get Tree</button>
+        </div>
+        <div id="tree-container" style="margin: 8px"></div>
+      </div>
+    </section>
+    <script src="bundle.js"></script>
   </body>
 </html>

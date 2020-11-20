@@ -1,0 +1,1 @@
+{"ast":null,"code":"/*\nexport const getTreeReducer = (tree) => {\n  const { title } = tree;\n\n  return {\n    title,\n  };\n};\n*/","map":null,"metadata":{},"sourceType":"script"}

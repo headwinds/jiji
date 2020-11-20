@@ -1,0 +1,1 @@
+{"ast":null,"code":"const {\n  gql\n} = require(\"apollo-server-micro\");\n\nmodule.exports = gql`\n  type Query {\n    root: String\n  }\n\n  type Mutation {\n    root: String\n  }\n`;","map":null,"metadata":{},"sourceType":"script"}

@@ -16,7 +16,7 @@ I'd like to be able to discuss, edit, and add to the work within a thread.
 yarn
 yarn start
 ```
-
+* [setting-up-apollo-graphql-in-next-js-with-server-side-rendering](https://dev.to/angad777/setting-up-apollo-graphql-in-next-js-with-server-side-rendering-45l5)
 * [Apollo Server Vercel](https://apollo-server-vercel.saeris.io/)
 * [GQL to Vercel](https://apuyou.io/blog/serverless-graphql-apollo-server-nextjs)
 * [GQL pass variables](https://medium.com/atheros/graphql-quick-tip-how-to-pass-variables-into-a-mutation-in-graphiql-23ecff4add57)
