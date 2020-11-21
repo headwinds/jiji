@@ -10,12 +10,27 @@ It's curious to see what AI can produce. How can machine learning encourage and 
 
 I'd like to be able to discuss, edit, and add to the work within a thread. 
 
-# Getting 
+# Getting Started
+
+### GQL Server
 
 ```
 yarn
 yarn start
 ```
+## Client
+
+```
+browserify main.js -o bundle.js
+```
+
+## Deploy
+
+```
+vercel
+```
+
+
 * [setting-up-apollo-graphql-in-next-js-with-server-side-rendering](https://dev.to/angad777/setting-up-apollo-graphql-in-next-js-with-server-side-rendering-45l5)
 * [Apollo Server Vercel](https://apollo-server-vercel.saeris.io/)
 * [GQL to Vercel](https://apuyou.io/blog/serverless-graphql-apollo-server-nextjs)
